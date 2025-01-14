@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38CC6B52-263F-4F7A-B0D8-B90BDDB86527}|RSA\\RSA.csproj|c:\\users\\user\\source\\repos\\consoleapp1\\rsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CC6B52-263F-4F7A-B0D8-B90BDDB86527}|RSA\\RSA.csproj|solutionrelative:rsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E74BBA-FFF3-4875-A376-AC19A2BBD82D}|Hill\\Hill.csproj|c:\\users\\user\\source\\repos\\consoleapp1\\hill\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E74BBA-FFF3-4875-A376-AC19A2BBD82D}|Hill\\Hill.csproj|solutionrelative:hill\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp1\\RSA\\Program.cs",
+              "RelativeDocumentMoniker": "RSA\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp1\\RSA\\Program.cs",
+              "RelativeToolTip": "RSA\\Program.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAADwv2cAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:50:52.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp1\\Hill\\Program.cs",
+              "RelativeDocumentMoniker": "Hill\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp1\\Hill\\Program.cs",
+              "RelativeToolTip": "Hill\\Program.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAqwKoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T22:30:08.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

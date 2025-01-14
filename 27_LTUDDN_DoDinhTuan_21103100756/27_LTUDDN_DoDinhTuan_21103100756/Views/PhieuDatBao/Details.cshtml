@@ -1,0 +1,50 @@
+﻿@model _27_LTUDDN_DoDinhTuan_21103100756.Models.PhieuDatBao
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PhieuDatBao</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ngaydat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngaydat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.soluong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soluong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dongia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dongia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KhachHang.tenkh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KhachHang.tenkh)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.tenbao, id1 = Model.makh }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

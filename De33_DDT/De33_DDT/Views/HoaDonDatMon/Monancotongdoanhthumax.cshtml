@@ -1,0 +1,58 @@
+﻿@model IEnumerable<De33_DDT.Models.Tongdoanhthu>
+
+@{
+    ViewBag.Title = "Monancotongdoanhthumax";
+}
+
+<h2>Monancotongdoanhthumax</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaMon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenMon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LoaiMon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DonGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DoanhThu)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaMon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenMon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoaiMon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DonGia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoanhThu)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaMon }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaMon }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaMon })
+            </td>
+        </tr>
+    }
+
+</table>

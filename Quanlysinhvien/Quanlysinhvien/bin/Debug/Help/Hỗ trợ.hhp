@@ -1,0 +1,21 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=H? tr?.chm
+Contents file=H? tr?.hhc
+Index file=H? tr?.hhk
+Binary Index=Yes
+Full-text search=Yes
+Language=0x042A
+Title=H? tr?
+Error log file=Errlog.txt
+Default Window=main
+
+[WINDOWS]
+main="H? tr?","H? tr?.hhc","H? tr?.hhk","Hotro.htm","",,,,,0x41520,240,0x184E,[262,184,762,584],,,,0,0,0,0
+
+[FILES]
+Hotro.htm
+Hotro_files\colorschememapping.xml
+Hotro_files\filelist.xml
+Hotro_files\themedata.thmx
+

@@ -1,0 +1,50 @@
+﻿@model DataFirst_DDT.Models.SinhVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Hoten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hoten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngaysinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngaysinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gioitinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gioitinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lop.Tenlop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lop.Tenlop)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Masv }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

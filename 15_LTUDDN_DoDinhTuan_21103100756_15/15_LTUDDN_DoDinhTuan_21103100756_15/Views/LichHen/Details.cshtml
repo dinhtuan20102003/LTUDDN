@@ -1,0 +1,50 @@
+﻿@model _15_LTUDDN_DoDinhTuan_21103100756_15.Models.LichHen
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LichHen</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayHen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayHen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LyDo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LyDo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BacSi.TenBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BacSi.TenBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BenhNhan.HoTenBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BenhNhan.HoTenBN)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaLichHen }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<_27_LTUDDN_DoDinhTuan_21103100756.Models.KhachHang>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.makh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tenkh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.diachi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gioitinh)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.makh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tenkh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.diachi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gioitinh)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.makh }) |
+            @Html.ActionLink("Details", "Details", new { id = item.makh }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.makh })
+        </td>
+    </tr>
+}
+
+</table>

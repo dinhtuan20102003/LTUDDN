@@ -1,0 +1,91 @@
+﻿@model PagedList.IPagedList<TruyVanLinq_QLSach_LTUDDN.Models.Book>
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@{ Html.BeginForm("Index", "Book10", FormMethod.Get);}
+<label>Tên sách: </label>
+@Html.TextBox("searchString", "", new { placeholder = "Nhập vào tên sách cần tìm" })
+@Html.Label("Chủ đề: ")
+@Html.DropDownList("CategoryID", "All")
+<input type="submit" value="Tìm kiếm" />
+@{ Html.EndForm();}
+<table class="table">
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Title)*@
+            @Html.ActionLink("Title", "Index", new { sortOrder = ViewBag.TitleSort, currentsearchString = ViewBag.currentsearchString, currentCateggoryID = ViewBag.currentCateggoryID })
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Price)*@
+            @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSort, currentsearchString = ViewBag.currentsearchString, currentCateggoryID = ViewBag.currentCateggoryID })
+        </th>
+        <th>
+            Images
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Published
+        </th>
+        <th>
+            ViewCount
+        </th>
+        <th>
+            Author.AuthorName
+        </th>
+        <th>
+            Category.CategoryName
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Images)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Published)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ViewCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author.AuthorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.BookID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.BookID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.BookID })
+            </td>
+        </tr>
+    }
+
+</table>
+</br>
+Trang @(Model.PageCount<Model.PageNumber? 0: Model.PageNumber)/@Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index", 
+    new {page, sortOrder = ViewBag.PriceSort, 
+        currentsearchString = ViewBag.currentsearchString, 
+        currentCateggoryID = ViewBag.currentCateggoryID } ))

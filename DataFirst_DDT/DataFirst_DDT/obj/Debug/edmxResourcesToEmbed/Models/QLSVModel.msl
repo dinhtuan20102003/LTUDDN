@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLSVModelStoreContainer" CdmEntityContainer="QLSVDataContext">
+    <EntitySetMapping Name="Diems">
+      <EntityTypeMapping TypeName="QLSVModel.Diem">
+        <MappingFragment StoreEntitySet="Diem">
+          <ScalarProperty Name="Masv" ColumnName="Masv" />
+          <ScalarProperty Name="Mamh" ColumnName="Mamh" />
+          <ScalarProperty Name="Diemtb" ColumnName="Diemtb" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lops">
+      <EntityTypeMapping TypeName="QLSVModel.Lop">
+        <MappingFragment StoreEntitySet="Lop">
+          <ScalarProperty Name="Malop" ColumnName="Malop" />
+          <ScalarProperty Name="Tenlop" ColumnName="Tenlop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SinhViens">
+      <EntityTypeMapping TypeName="QLSVModel.SinhVien">
+        <MappingFragment StoreEntitySet="SinhVien">
+          <ScalarProperty Name="Masv" ColumnName="Masv" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+          <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
+          <ScalarProperty Name="Malop" ColumnName="Malop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

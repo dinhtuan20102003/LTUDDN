@@ -1,0 +1,69 @@
+﻿@model IEnumerable<_27_DoDinhTuan_21103100756_DHTI15A1CL.Models.SinhVien>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<p class = "btn btn-primary text-bg-light">
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Index1", "SinhViens", FormMethod.Get))
+{
+    <div>
+        <label for="searchName">Nhập tên sinh viên:</label>
+        @Html.TextBox("searchName", null, new { @class = "form-control" })
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </div>
+}
+<table class="table table-striped table-bordered table-hover table-info">
+    <tr class="table-dark" style="text-align:center">
+        <th>
+            @Html.DisplayNameFor(model => model.masv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hoten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.namsinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gioitinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.Label("Thao tác")
+        </th>
+      
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.masv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hoten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.namsinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gioitinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.masv }, new { @class = "btn btn-success w-30" }) 
+                @Html.ActionLink("Details", "Details", new { id = item.masv }, new { @class = "btn btn-danger w-30" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.masv }, new { @class = "btn btn-warning w-30" })
+            </td>
+        </tr>
+    }
+
+</table>

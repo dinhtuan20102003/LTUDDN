@@ -1,0 +1,50 @@
+﻿@model WebApplication1.Models.BanHang
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BanHang</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dinhmuc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dinhmuc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.slban)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.slban)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NhanVien.tenquay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhanVien.tenquay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SanPham.tensp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SanPham.tensp)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

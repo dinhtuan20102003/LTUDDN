@@ -1,0 +1,51 @@
+﻿@model IEnumerable<DataFirst_DDT.Models.SinhVien>
+
+@{
+    ViewBag.Title = "Timkiem";
+}
+
+<h2>Timkiem</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.Label("Nhập tên lớp")
+    @Html.TextBox("tk")
+    <input type="submit" value="Tìm kiếm" />
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Hoten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ngaysinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gioitinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lop.Tenlop)
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hoten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaysinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gioitinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lop.Tenlop)
+            </td>
+
+        </tr>
+    }
+
+</table>

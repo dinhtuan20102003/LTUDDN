@@ -1,0 +1,50 @@
+﻿@model _15_LTUDDN_DoDinhTuan_21103100756_15.Models.BacSi
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BacSi</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ChuyenKhoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ChuyenKhoa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoNamKinhNghiem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoNamKinhNghiem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DienThoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DienThoai)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaBS }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

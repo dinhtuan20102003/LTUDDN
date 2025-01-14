@@ -1,0 +1,45 @@
+﻿@model IEnumerable<_27_LTUDDN_DoDinhTuan.Models.Diem>
+
+@{
+    ViewBag.Title = "TK";
+}
+
+<h2>TK</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@{Html.BeginForm("TK", "Diem", FormMethod.Get);}
+@Html.TextBox("search")
+<input type="submit" value="Tim kiem"/>
+@{ Html.EndForm();}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SinhVien.hoten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tenmh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.diem)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SinhVien.hoten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tenmh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.diem)
+        </td>
+      
+    </tr>
+}
+
+</table>

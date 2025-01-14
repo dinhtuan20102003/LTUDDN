@@ -1,0 +1,32 @@
+﻿@model DoDinhTuan_21103100756_LTUDDN_BTVN_Tuan4.Models.Login
+
+<h2 style="text-align: center; color: deepskyblue">Login</h2>
+@{ Html.BeginForm("Login", "Login", FormMethod.Post);}
+<table align="center" class="table table-striped table-hover table-bordered table-info"  >
+    <tr>
+        <td>@Html.LabelFor(m => m.Username)</td>
+        <td>@Html.TextBoxFor(m => m.Username, new { @class = "form-control" })</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(m => m.Password)</td>
+        <td>@Html.PasswordFor(m => m.Password, new { @class = "form-control" })</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><input type="submit" value="Đăng nhập" class="btn btn-primary" /></td>
+
+    </tr>
+</table>
+@if(ViewBag.tb != null)
+            {
+                <p class="text-success ">
+                    @ViewBag.tb
+                </p>
+            }
+@Html.ValidationSummary(true, "", new {@class ="text-danger"})
+@{ Html.EndForm();}
+<style>
+    .table{
+        width: 40%
+
+    }
+</style>

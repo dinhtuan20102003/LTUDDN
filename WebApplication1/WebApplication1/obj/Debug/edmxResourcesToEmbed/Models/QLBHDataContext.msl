@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLBHModelStoreContainer" CdmEntityContainer="QLBHDataContext">
+    <EntitySetMapping Name="BanHangs">
+      <EntityTypeMapping TypeName="QLBHModel.BanHang">
+        <MappingFragment StoreEntitySet="BanHang">
+          <ScalarProperty Name="manv" ColumnName="manv" />
+          <ScalarProperty Name="masp" ColumnName="masp" />
+          <ScalarProperty Name="dinhmuc" ColumnName="dinhmuc" />
+          <ScalarProperty Name="slban" ColumnName="slban" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhanViens">
+      <EntityTypeMapping TypeName="QLBHModel.NhanVien">
+        <MappingFragment StoreEntitySet="NhanVien">
+          <ScalarProperty Name="manv" ColumnName="manv" />
+          <ScalarProperty Name="tenquay" ColumnName="tenquay" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPhams">
+      <EntityTypeMapping TypeName="QLBHModel.SanPham">
+        <MappingFragment StoreEntitySet="SanPham">
+          <ScalarProperty Name="masp" ColumnName="masp" />
+          <ScalarProperty Name="tensp" ColumnName="tensp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

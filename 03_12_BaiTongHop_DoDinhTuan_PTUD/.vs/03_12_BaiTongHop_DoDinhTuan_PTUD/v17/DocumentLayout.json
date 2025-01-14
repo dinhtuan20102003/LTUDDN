@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7002A390-1071-4770-B304-8B6EBEB26953}|03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD.csproj|c:\\users\\user\\source\\repos\\03_12_baitonghop_dodinhtuan_ptud\\03_12_baitonghop_dodinhtuan_ptud\\webforms\\xemay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7002A390-1071-4770-B304-8B6EBEB26953}|03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD.csproj|solutionrelative:03_12_baitonghop_dodinhtuan_ptud\\webforms\\xemay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7002A390-1071-4770-B304-8B6EBEB26953}|03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD.csproj|C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_baitonghop_dodinhtuan_ptud\\webforms\\xemay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7002A390-1071-4770-B304-8B6EBEB26953}|03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD.csproj|solutionrelative:03_12_baitonghop_dodinhtuan_ptud\\webforms\\xemay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7002A390-1071-4770-B304-8B6EBEB26953}|03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD.csproj|C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_baitonghop_dodinhtuan_ptud\\models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7002A390-1071-4770-B304-8B6EBEB26953}|03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD.csproj|solutionrelative:03_12_baitonghop_dodinhtuan_ptud\\models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7002A390-1071-4770-B304-8B6EBEB26953}|03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD.csproj|C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_baitonghop_dodinhtuan_ptud\\models\\xemay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7002A390-1071-4770-B304-8B6EBEB26953}|03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD.csproj|solutionrelative:03_12_baitonghop_dodinhtuan_ptud\\models\\xemay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XeMay.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD\\WebForms\\XeMay.aspx",
+              "RelativeDocumentMoniker": "03_12_BaiTongHop_DoDinhTuan_PTUD\\WebForms\\XeMay.aspx",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD\\WebForms\\XeMay.aspx",
+              "RelativeToolTip": "03_12_BaiTongHop_DoDinhTuan_PTUD\\WebForms\\XeMay.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-03T13:02:25.423Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD\\Models\\Database.cs",
+              "RelativeDocumentMoniker": "03_12_BaiTongHop_DoDinhTuan_PTUD\\Models\\Database.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD\\Models\\Database.cs",
+              "RelativeToolTip": "03_12_BaiTongHop_DoDinhTuan_PTUD\\Models\\Database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:02:10.338Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XeMay.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD\\WebForms\\XeMay.aspx.cs",
+              "RelativeDocumentMoniker": "03_12_BaiTongHop_DoDinhTuan_PTUD\\WebForms\\XeMay.aspx.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD\\WebForms\\XeMay.aspx.cs",
+              "RelativeToolTip": "03_12_BaiTongHop_DoDinhTuan_PTUD\\WebForms\\XeMay.aspx.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAAAKkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:26:42.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XeMay.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD\\Models\\XeMay.cs",
+              "RelativeDocumentMoniker": "03_12_BaiTongHop_DoDinhTuan_PTUD\\Models\\XeMay.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\03_12_BaiTongHop_DoDinhTuan_PTUD\\03_12_BaiTongHop_DoDinhTuan_PTUD\\Models\\XeMay.cs",
+              "RelativeToolTip": "03_12_BaiTongHop_DoDinhTuan_PTUD\\Models\\XeMay.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:02:02.736Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

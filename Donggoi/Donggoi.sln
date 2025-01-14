@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donggoi", "Donggoi\Donggoi.csproj", "{05E9924D-0AB0-4025-BC52-835458107B67}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupTest", "SetupTest\SetupTest.vdproj", "{5B092257-4588-4176-98E5-5A9C96F8E43E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E9924D-0AB0-4025-BC52-835458107B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E9924D-0AB0-4025-BC52-835458107B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E9924D-0AB0-4025-BC52-835458107B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E9924D-0AB0-4025-BC52-835458107B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B092257-4588-4176-98E5-5A9C96F8E43E}.Debug|Any CPU.ActiveCfg = Debug
+		{5B092257-4588-4176-98E5-5A9C96F8E43E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E585DFFC-5C39-424E-8BE7-90400F91F6BD}
+	EndGlobalSection
+EndGlobal

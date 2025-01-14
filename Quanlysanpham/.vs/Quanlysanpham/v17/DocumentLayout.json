@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD5E728-307F-434F-B6C2-7C4A9C5EF2B9}|Quanlysanpham\\Quanlysanpham.csproj|c:\\users\\user\\source\\repos\\quanlysanpham\\quanlysanpham\\webforms\\sanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2DD5E728-307F-434F-B6C2-7C4A9C5EF2B9}|Quanlysanpham\\Quanlysanpham.csproj|solutionrelative:quanlysanpham\\webforms\\sanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD5E728-307F-434F-B6C2-7C4A9C5EF2B9}|Quanlysanpham\\Quanlysanpham.csproj|C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\WebForms\\Sanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD5E728-307F-434F-B6C2-7C4A9C5EF2B9}|Quanlysanpham\\Quanlysanpham.csproj|solutionrelative:Quanlysanpham\\WebForms\\Sanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD5E728-307F-434F-B6C2-7C4A9C5EF2B9}|Quanlysanpham\\Quanlysanpham.csproj|C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\Models\\Sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD5E728-307F-434F-B6C2-7C4A9C5EF2B9}|Quanlysanpham\\Quanlysanpham.csproj|solutionrelative:Quanlysanpham\\Models\\Sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD5E728-307F-434F-B6C2-7C4A9C5EF2B9}|Quanlysanpham\\Quanlysanpham.csproj|C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\Models\\Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD5E728-307F-434F-B6C2-7C4A9C5EF2B9}|Quanlysanpham\\Quanlysanpham.csproj|solutionrelative:Quanlysanpham\\Models\\Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\Models\\Sanpham.cs",
+              "RelativeDocumentMoniker": "Quanlysanpham\\Models\\Sanpham.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\Models\\Sanpham.cs",
+              "RelativeToolTip": "Quanlysanpham\\Models\\Sanpham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:01:13.637Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sanpham.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\WebForms\\Sanpham.aspx.cs",
+              "RelativeDocumentMoniker": "Quanlysanpham\\WebForms\\Sanpham.aspx.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\WebForms\\Sanpham.aspx.cs",
+              "RelativeToolTip": "Quanlysanpham\\WebForms\\Sanpham.aspx.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAnwDgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:49:39.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sanpham.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\WebForms\\Sanpham.aspx",
+              "RelativeDocumentMoniker": "Quanlysanpham\\WebForms\\Sanpham.aspx",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\WebForms\\Sanpham.aspx",
+              "RelativeToolTip": "Quanlysanpham\\WebForms\\Sanpham.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-07T01:49:20.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\Models\\Database.cs",
+              "RelativeDocumentMoniker": "Quanlysanpham\\Models\\Database.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Quanlysanpham\\Quanlysanpham\\Models\\Database.cs",
+              "RelativeToolTip": "Quanlysanpham\\Models\\Database.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAIA5wFYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:44:10.582Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

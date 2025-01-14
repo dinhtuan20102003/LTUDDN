@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLBHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BanHang">
+    <Key>
+      <PropertyRef Name="manv" />
+      <PropertyRef Name="masp" />
+    </Key>
+    <Property Name="manv" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="masp" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="dinhmuc" Type="smallint" />
+    <Property Name="slban" Type="smallint" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="manv" />
+    </Key>
+    <Property Name="manv" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="tenquay" Type="nvarchar" MaxLength="10" />
+    <Property Name="hoten" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="masp" />
+    </Key>
+    <Property Name="masp" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="tensp" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK_BanHang_NhanVien">
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="1" />
+    <End Role="BanHang" Type="Self.BanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="manv" />
+      </Principal>
+      <Dependent Role="BanHang">
+        <PropertyRef Name="manv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BanHang_SanPham">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="1" />
+    <End Role="BanHang" Type="Self.BanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="masp" />
+      </Principal>
+      <Dependent Role="BanHang">
+        <PropertyRef Name="masp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLBHModelStoreContainer">
+    <EntitySet Name="BanHang" EntityType="Self.BanHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NhanVien" EntityType="Self.NhanVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SanPham" EntityType="Self.SanPham" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BanHang_NhanVien" Association="Self.FK_BanHang_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="BanHang" EntitySet="BanHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BanHang_SanPham" Association="Self.FK_BanHang_SanPham">
+      <End Role="SanPham" EntitySet="SanPham" />
+      <End Role="BanHang" EntitySet="BanHang" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

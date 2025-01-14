@@ -1,0 +1,40 @@
+﻿@model IEnumerable<TruyVanLinq_QLSach_LTUDDN.Models.BookByCategoryViewModel>
+
+@{
+    ViewBag.Title = "GroupBookByCategory";
+}
+
+<h2>GroupBookByCategory</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PriceSum)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PriceSum)
+        </td>
+    </tr>
+}
+
+</table>

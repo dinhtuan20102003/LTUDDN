@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|c:\\users\\user\\music\\17_11\\27_ltuddn_dodinhtuan\\27_ltuddn_dodinhtuan\\controllers\\diemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\controllers\\diemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\views\\diem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\views\\diem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\views\\diem\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\views\\diem\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|c:\\users\\user\\music\\17_11\\27_ltuddn_dodinhtuan\\27_ltuddn_dodinhtuan\\views\\diem\\max.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\views\\diem\\max.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\models\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\models\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\views\\diem\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\views\\diem\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\views\\diem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\views\\diem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\app_start\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\app_start\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_ltuddn_dodinhtuan\\models\\qlsvdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA0CFE3-A6C2-4D5F-A674-7AABFE09A0CE}|27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan.csproj|solutionrelative:27_ltuddn_dodinhtuan\\models\\qlsvdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Max.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Max.cshtml",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Max.cshtml",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Max.cshtml",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Max.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:02:45.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Delete.cshtml",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Delete.cshtml",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:21:59.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Index.cshtml",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Index.cshtml",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:06:01.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\SinhVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Views\\SinhVien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\SinhVien\\Index.cshtml",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Views\\SinhVien\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:05:33.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:04:36.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiemController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Controllers\\DiemController.cs",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Controllers\\DiemController.cs",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Controllers\\DiemController.cs",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Controllers\\DiemController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:03:52.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SinhVienController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Controllers\\SinhVienController.cs",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Controllers\\SinhVienController.cs",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Controllers\\SinhVienController.cs",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Controllers\\SinhVienController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwCYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:03:28.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Global.asax.cs",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Global.asax.cs",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Global.asax.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:01:43.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Diem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Models\\Diem.cs",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Models\\Diem.cs",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Models\\Diem.cs",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Models\\Diem.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:45:53.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Edit.cshtml",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Edit.cshtml",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:22:00.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Create.cshtml",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Diem\\Create.cshtml",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Views\\Diem\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:12:56.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\SinhVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Views\\SinhVien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\SinhVien\\Create.cshtml",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Views\\SinhVien\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:10:49.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Models\\SinhVien.cs",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Models\\SinhVien.cs",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Models\\SinhVien.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA1wAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:45:45.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\packages.config",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\packages.config",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\packages.config",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-17T12:02:30.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:03:57.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Web.config",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Web.config",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Web.config",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Web.config",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-17T12:01:41.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DataInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\App_Start\\DataInitializer.cs",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\App_Start\\DataInitializer.cs",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\App_Start\\DataInitializer.cs",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\App_Start\\DataInitializer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:56:17.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QLSVDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Models\\QLSVDataContext.cs",
+              "RelativeDocumentMoniker": "27_LTUDDN_DoDinhTuan\\Models\\QLSVDataContext.cs",
+              "ToolTip": "C:\\Users\\User\\Music\\17_11\\27_LTUDDN_DoDinhTuan\\27_LTUDDN_DoDinhTuan\\Models\\QLSVDataContext.cs",
+              "RelativeToolTip": "27_LTUDDN_DoDinhTuan\\Models\\QLSVDataContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:54:08.721Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

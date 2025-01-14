@@ -1,0 +1,99 @@
+﻿@model IEnumerable<DoDinhTuan_21103100756_LTUDDN_BTVN_Tuan4.Models.NhanVien>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="text-align:center">DANH SÁCH NHÂN VIÊN</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Gioitinh", "NhanVien", FormMethod.Get))
+{
+
+    <input type="submit" value="Tìm kiếm nhân viên có giới tính nữ" class="btn btn-primary" />
+}
+@using (Html.BeginForm("TongLuong", "NhanVien", FormMethod.Post))
+{
+    <div>
+        <label>Tên phòng</label>
+        <input type="text" name="tenPhong" class="form-control" placeholder="Nhập tên phòng" />
+        <input type="submit" value="Tính tổng lương" class="btn btn-primary" />
+    </div>
+}
+@if (ViewBag.TongLuong != null)
+{
+    <div class="alert alert-info">
+        Tổng lương của phòng: @ViewBag.TongLuong
+    </div>
+}
+@using (Html.BeginForm("TimKiemTheoPhong", "NhanVien", FormMethod.Post))
+{
+
+    <label>Tên phòng</label>
+    <div>
+        <input type="text" name="tenPhong" class="form-control" placeholder="Nhập tên phòng" />
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </div>
+
+}
+<table class="table table-bordered table-hover table-striped table-info">
+    <tr style="text-align: center">
+        <th>
+            @Html.DisplayNameFor(model => model.HoTen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GioiTinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DienThoai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeSoLuong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Luong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenPhong)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeSoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Luong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenPhong)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaNV }, new {@class = "btn btn-success"}) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaNV }, new { @class = "btn btn-success" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaNV }, new { @class = "btn btn-success" })
+            </td>
+        </tr>
+    }
+
+</table>

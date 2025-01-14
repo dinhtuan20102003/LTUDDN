@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLSVModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Diem">
+    <Key>
+      <PropertyRef Name="Masv" />
+      <PropertyRef Name="Mamh" />
+    </Key>
+    <Property Name="Masv" Type="Int32" Nullable="false" />
+    <Property Name="Mamh" Type="Int32" Nullable="false" />
+    <Property Name="Diemtb" Type="Decimal" Precision="4" Scale="2" />
+    <NavigationProperty Name="SinhVien" Relationship="Self.FK_Diem_SinhVien" FromRole="Diem" ToRole="SinhVien" />
+  </EntityType>
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="Malop" />
+    </Key>
+    <Property Name="Malop" Type="Int32" Nullable="false" />
+    <Property Name="Tenlop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SinhViens" Relationship="Self.FK_SinhVien_Lop" FromRole="Lop" ToRole="SinhVien" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="Masv" />
+    </Key>
+    <Property Name="Masv" Type="Int32" Nullable="false" />
+    <Property Name="Hoten" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Ngaysinh" Type="DateTime" Precision="3" />
+    <Property Name="Gioitinh" Type="Boolean" />
+    <Property Name="Malop" Type="Int32" />
+    <NavigationProperty Name="Diems" Relationship="Self.FK_Diem_SinhVien" FromRole="SinhVien" ToRole="Diem" />
+    <NavigationProperty Name="Lop" Relationship="Self.FK_SinhVien_Lop" FromRole="SinhVien" ToRole="Lop" />
+  </EntityType>
+  <Association Name="FK_Diem_SinhVien">
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="1" />
+    <End Role="Diem" Type="Self.Diem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SinhVien">
+        <PropertyRef Name="Masv" />
+      </Principal>
+      <Dependent Role="Diem">
+        <PropertyRef Name="Masv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SinhVien_Lop">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="0..1" />
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="Malop" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="Malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLSVDataContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Diems" EntityType="Self.Diem" />
+    <EntitySet Name="Lops" EntityType="Self.Lop" />
+    <EntitySet Name="SinhViens" EntityType="Self.SinhVien" />
+    <AssociationSet Name="FK_Diem_SinhVien" Association="Self.FK_Diem_SinhVien">
+      <End Role="SinhVien" EntitySet="SinhViens" />
+      <End Role="Diem" EntitySet="Diems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SinhVien_Lop" Association="Self.FK_SinhVien_Lop">
+      <End Role="Lop" EntitySet="Lops" />
+      <End Role="SinhVien" EntitySet="SinhViens" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

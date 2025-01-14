@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84739541-F1C5-495B-B45C-0340CD52B5E6}|QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan.csproj|c:\\users\\user\\source\\repos\\qlthuvien_dodinhtuan\\qlthuvien_dodinhtuan\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84739541-F1C5-495B-B45C-0340CD52B5E6}|QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan.csproj|solutionrelative:qlthuvien_dodinhtuan\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84739541-F1C5-495B-B45C-0340CD52B5E6}|QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan.csproj|C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\qlthuvien_dodinhtuan\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84739541-F1C5-495B-B45C-0340CD52B5E6}|QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan.csproj|solutionrelative:qlthuvien_dodinhtuan\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84739541-F1C5-495B-B45C-0340CD52B5E6}|QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan.csproj|C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\qlthuvien_dodinhtuan\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84739541-F1C5-495B-B45C-0340CD52B5E6}|QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan.csproj|solutionrelative:qlthuvien_dodinhtuan\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84739541-F1C5-495B-B45C-0340CD52B5E6}|QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan.csproj|C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\qlthuvien_dodinhtuan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84739541-F1C5-495B-B45C-0340CD52B5E6}|QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan.csproj|solutionrelative:qlthuvien_dodinhtuan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan\\Form1.cs",
+              "RelativeDocumentMoniker": "QLThuvien_DoDinhTuan\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan\\Form1.cs [Design]",
+              "RelativeToolTip": "QLThuvien_DoDinhTuan\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:52:11.819Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dangnhap.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "QLThuvien_DoDinhTuan\\Dangnhap.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan\\Dangnhap.cs",
+              "RelativeToolTip": "QLThuvien_DoDinhTuan\\Dangnhap.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAwEsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:55:31.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dangnhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "QLThuvien_DoDinhTuan\\Dangnhap.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan\\Dangnhap.cs [Design]",
+              "RelativeToolTip": "QLThuvien_DoDinhTuan\\Dangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:34:50.948Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KetNoi.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan\\KetNoi.cs",
+              "RelativeDocumentMoniker": "QLThuvien_DoDinhTuan\\KetNoi.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\QLThuvien_DoDinhTuan\\QLThuvien_DoDinhTuan\\KetNoi.cs",
+              "RelativeToolTip": "QLThuvien_DoDinhTuan\\KetNoi.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAwDYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:52:23.78Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
+    <EntitySetMapping Name="BacSis">
+      <EntityTypeMapping TypeName="DatabaseModel.BacSi">
+        <MappingFragment StoreEntitySet="BacSi">
+          <ScalarProperty Name="MaBS" ColumnName="MaBS" />
+          <ScalarProperty Name="TenBS" ColumnName="TenBS" />
+          <ScalarProperty Name="ChuyenKhoa" ColumnName="ChuyenKhoa" />
+          <ScalarProperty Name="SoNamKinhNghiem" ColumnName="SoNamKinhNghiem" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BenhNhans">
+      <EntityTypeMapping TypeName="DatabaseModel.BenhNhan">
+        <MappingFragment StoreEntitySet="BenhNhan">
+          <ScalarProperty Name="MaBN" ColumnName="MaBN" />
+          <ScalarProperty Name="HoTenBN" ColumnName="HoTenBN" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LichHens">
+      <EntityTypeMapping TypeName="DatabaseModel.LichHen">
+        <MappingFragment StoreEntitySet="LichHen">
+          <ScalarProperty Name="MaLichHen" ColumnName="MaLichHen" />
+          <ScalarProperty Name="MaBN" ColumnName="MaBN" />
+          <ScalarProperty Name="MaBS" ColumnName="MaBS" />
+          <ScalarProperty Name="NgayHen" ColumnName="NgayHen" />
+          <ScalarProperty Name="LyDo" ColumnName="LyDo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\bin\Debug\QLThuvien_DoDinhTuan.exe.config
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\bin\Debug\QLThuvien_DoDinhTuan.exe
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\bin\Debug\QLThuvien_DoDinhTuan.pdb
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvien_DoDinhTuan.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvien_DoDinhTuan.Form1.resources
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvien_DoDinhTuan.Properties.Resources.resources
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvien_DoDinhTuan.csproj.GenerateResource.cache
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvien_DoDinhTuan.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvie.BBF091F3.Up2Date
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvien_DoDinhTuan.exe
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvien_DoDinhTuan.pdb
+C:\Users\User\source\repos\QLThuvien_DoDinhTuan\QLThuvien_DoDinhTuan\obj\Debug\QLThuvien_DoDinhTuan.Dangnhap.resources

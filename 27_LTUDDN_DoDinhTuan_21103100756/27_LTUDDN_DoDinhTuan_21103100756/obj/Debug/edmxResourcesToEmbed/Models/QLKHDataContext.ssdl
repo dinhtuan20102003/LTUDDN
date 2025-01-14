@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLKHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="makh" />
+    </Key>
+    <Property Name="makh" Type="int" Nullable="false" />
+    <Property Name="tenkh" Type="nvarchar" MaxLength="30" />
+    <Property Name="diachi" Type="nvarchar" MaxLength="50" />
+    <Property Name="gioitinh" Type="bit" />
+  </EntityType>
+  <EntityType Name="PhieuDatBao">
+    <Key>
+      <PropertyRef Name="tenbao" />
+      <PropertyRef Name="makh" />
+    </Key>
+    <Property Name="tenbao" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="makh" Type="int" Nullable="false" />
+    <Property Name="ngaydat" Type="date" />
+    <Property Name="soluong" Type="int" />
+    <Property Name="dongia" Type="decimal" Precision="18" Scale="3" />
+  </EntityType>
+  <Association Name="FK_PhieuDatBao_KhachHang">
+    <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="1" />
+    <End Role="PhieuDatBao" Type="Self.PhieuDatBao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KhachHang">
+        <PropertyRef Name="makh" />
+      </Principal>
+      <Dependent Role="PhieuDatBao">
+        <PropertyRef Name="makh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLKHModelStoreContainer">
+    <EntitySet Name="KhachHang" EntityType="Self.KhachHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhieuDatBao" EntityType="Self.PhieuDatBao" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_PhieuDatBao_KhachHang" Association="Self.FK_PhieuDatBao_KhachHang">
+      <End Role="KhachHang" EntitySet="KhachHang" />
+      <End Role="PhieuDatBao" EntitySet="PhieuDatBao" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

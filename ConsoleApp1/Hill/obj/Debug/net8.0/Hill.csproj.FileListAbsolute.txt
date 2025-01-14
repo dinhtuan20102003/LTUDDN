@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\ConsoleApp1\Hill\bin\Debug\net8.0\Hill.exe
+C:\Users\User\source\repos\ConsoleApp1\Hill\bin\Debug\net8.0\Hill.deps.json
+C:\Users\User\source\repos\ConsoleApp1\Hill\bin\Debug\net8.0\Hill.runtimeconfig.json
+C:\Users\User\source\repos\ConsoleApp1\Hill\bin\Debug\net8.0\Hill.dll
+C:\Users\User\source\repos\ConsoleApp1\Hill\bin\Debug\net8.0\Hill.pdb
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\Hill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\Hill.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\Hill.AssemblyInfo.cs
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\Hill.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\Hill.dll
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\refint\Hill.dll
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\Hill.pdb
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\Hill.genruntimeconfig.cache
+C:\Users\User\source\repos\ConsoleApp1\Hill\obj\Debug\net8.0\ref\Hill.dll

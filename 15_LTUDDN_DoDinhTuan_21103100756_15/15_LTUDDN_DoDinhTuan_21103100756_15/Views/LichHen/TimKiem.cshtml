@@ -1,0 +1,78 @@
+﻿@model IEnumerable<_15_LTUDDN_DoDinhTuan_21103100756_15.Models.LichHen>
+
+@{
+    ViewBag.Title = "TimKiem";
+}
+
+<h2>TimKiem</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@{ Html.BeginForm("TimKiem", "LichHen", FormMethod.Get);}
+@Html.Label("Nhập tên bệnh nhân cần tìm: ")
+@Html.TextBox("timkiem1", "", new { @class = "form-control" })
+@Html.Label("Chọn tên bác sĩ cần tìm: ")
+@Html.DropDownList("timkiem2", (SelectList)ViewBag.TenBS, new { @class = "form-control" })
+<button type="submit" class="btn btn-danger">Tìm kiếm</button>
+@{ Html.EndForm();}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaLichHen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayHen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LyDo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BacSi.TenBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BenhNhan.HoTenBN)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaLichHen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaBN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BacSi.MaBS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayHen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LyDo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BacSi.TenBS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BenhNhan.HoTenBN)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaLichHen }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaLichHen }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaLichHen })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLSVModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Diem">
+    <Key>
+      <PropertyRef Name="Masv" />
+      <PropertyRef Name="Mamh" />
+    </Key>
+    <Property Name="Masv" Type="int" Nullable="false" />
+    <Property Name="Mamh" Type="int" Nullable="false" />
+    <Property Name="Diemtb" Type="decimal" Precision="4" Scale="2" />
+  </EntityType>
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="Malop" />
+    </Key>
+    <Property Name="Malop" Type="int" Nullable="false" />
+    <Property Name="Tenlop" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="Masv" />
+    </Key>
+    <Property Name="Masv" Type="int" Nullable="false" />
+    <Property Name="Hoten" Type="nvarchar" MaxLength="30" />
+    <Property Name="Ngaysinh" Type="datetime" />
+    <Property Name="Gioitinh" Type="bit" />
+    <Property Name="Malop" Type="int" />
+  </EntityType>
+  <Association Name="FK_Diem_SinhVien">
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="1" />
+    <End Role="Diem" Type="Self.Diem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SinhVien">
+        <PropertyRef Name="Masv" />
+      </Principal>
+      <Dependent Role="Diem">
+        <PropertyRef Name="Masv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SinhVien_Lop">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="0..1" />
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="Malop" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="Malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLSVModelStoreContainer">
+    <EntitySet Name="Diem" EntityType="Self.Diem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lop" EntityType="Self.Lop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SinhVien" EntityType="Self.SinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Diem_SinhVien" Association="Self.FK_Diem_SinhVien">
+      <End Role="SinhVien" EntitySet="SinhVien" />
+      <End Role="Diem" EntitySet="Diem" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SinhVien_Lop" Association="Self.FK_SinhVien_Lop">
+      <End Role="Lop" EntitySet="Lop" />
+      <End Role="SinhVien" EntitySet="SinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Donggoi\Donggoi\bin\Debug\Donggoi.exe.config
+C:\Users\User\source\repos\Donggoi\Donggoi\bin\Debug\Donggoi.exe
+C:\Users\User\source\repos\Donggoi\Donggoi\bin\Debug\Donggoi.pdb
+C:\Users\User\source\repos\Donggoi\Donggoi\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\User\source\repos\Donggoi\Donggoi\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\User\source\repos\Donggoi\Donggoi\obj\Debug\Donggoi.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Donggoi\Donggoi\obj\Debug\Donggoi.Form1.resources
+C:\Users\User\source\repos\Donggoi\Donggoi\obj\Debug\Donggoi.Properties.Resources.resources
+C:\Users\User\source\repos\Donggoi\Donggoi\obj\Debug\Donggoi.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Donggoi\Donggoi\obj\Debug\Donggoi.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Donggoi\Donggoi\obj\Debug\Donggoi.csproj.Up2Date
+C:\Users\User\source\repos\Donggoi\Donggoi\obj\Debug\Donggoi.exe
+C:\Users\User\source\repos\Donggoi\Donggoi\obj\Debug\Donggoi.pdb

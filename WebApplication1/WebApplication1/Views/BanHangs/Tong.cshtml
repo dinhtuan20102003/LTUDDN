@@ -1,0 +1,40 @@
+﻿@model IEnumerable<WebApplication1.Models.Tong>
+
+@{
+    ViewBag.Title = "Tong";
+}
+
+<h2>Tong</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Hoten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tongsl)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hoten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tongsl)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.manv }) |
+            @Html.ActionLink("Details", "Details", new { id=item.manv }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.manv })
+        </td>
+    </tr>
+}
+
+</table>

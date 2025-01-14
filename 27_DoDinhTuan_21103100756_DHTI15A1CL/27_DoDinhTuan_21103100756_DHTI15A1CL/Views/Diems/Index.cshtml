@@ -1,0 +1,64 @@
+﻿@model IEnumerable<_27_DoDinhTuan_21103100756_DHTI15A1CL.Models.Diem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<p class = "btn btn-primary text-bg-light" > 
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm("Diem", "Diems", FormMethod.Get))
+{
+    <button type="submit" class="btn btn-primary">Sinh viên có điểm môn Kĩ thuật lập trình thấp nhất</button>
+}
+@{Html.BeginForm(); }
+@Html.Label("Họ tên: ")
+@Html.TextBox("search", "", new {@placeholder = "Nhap ho ten can tim"})
+<input type="submit" value="Tim kiem"/>
+@{ Html.EndForm();}
+
+<table class="table table-striped table-bordered table-hover table-info">
+    <tr class="table-dark" style="text-align:center">
+        <th>
+            @Html.DisplayNameFor(model => model.masv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tenmh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.diem1)
+        </th>
+        <th>
+            @Html.Label("Thao tác")
+        </th>
+       
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.masv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tenmh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.diem1)
+            </td>
+
+           
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { masv = item.masv, tenmh = item.tenmh }, new { @class = "btn btn-success w-40" }) 
+                @Html.ActionLink("Details", "Details", new { masv = item.masv, tenmh = item.tenmh }, new { @class = "btn btn-danger w-40" }) 
+                @Html.ActionLink("Delete", "Delete", new { masv = item.masv, tenmh = item.tenmh }, new { @class = "btn btn-warning w-40" }) 
+            </td>
+
+            
+        </tr>
+    }
+
+</table>

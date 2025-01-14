@@ -1,0 +1,43 @@
+﻿@model _27_DoDinhTuan_21103100756_DHTI15A1CL.Models.Diem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Diem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.masv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.masv)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.tenmh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tenmh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.diem1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.diem1)
+        </dd>
+
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { masv = Model.masv, tenmh = Model.tenmh }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,42 @@
+﻿@model _27_LTUDDN_DoDinhTuan_21103100756.Models.HoaDon
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HoaDon</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SanPham.tensp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SanPham.tensp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ngayban)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngayban)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.soluongban)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soluongban)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLKHModelStoreContainer" CdmEntityContainer="QLKHDataContext">
+    <EntitySetMapping Name="KhachHangs">
+      <EntityTypeMapping TypeName="QLKHModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="makh" ColumnName="makh" />
+          <ScalarProperty Name="tenkh" ColumnName="tenkh" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhieuDatBaos">
+      <EntityTypeMapping TypeName="QLKHModel.PhieuDatBao">
+        <MappingFragment StoreEntitySet="PhieuDatBao">
+          <ScalarProperty Name="tenbao" ColumnName="tenbao" />
+          <ScalarProperty Name="makh" ColumnName="makh" />
+          <ScalarProperty Name="ngaydat" ColumnName="ngaydat" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="dongia" ColumnName="dongia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

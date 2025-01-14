@@ -1,0 +1,90 @@
+﻿@model IEnumerable<LTUDDN.Models.QuatDien>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Filter", "QuatDien", FormMethod.Post))
+{
+    <label>Chon hang san xuat</label>
+    @Html.DropDownList("HangSanXuat", new List<SelectListItem>
+{
+   new SelectListItem {Text = "Panasonic", Value = "Panasonic"},
+    new SelectListItem {Text = "Asia", Value = "Asia"}
+}, "Chon hang san xuat", new { @class = "form-control" })
+    <input type="submit" value="Submit" class="btn btn-success" />
+}
+@if (ViewBag.tbc != null)
+{
+    <h2>Trung binh thanh tien cua hang: @ViewBag.tbc</h2>
+}
+
+@if (ViewBag.tong != null)
+{
+   <h2>Trung binh thanh tien cua hang: @ViewBag.tong</h2>
+}
+@using(Html.BeginForm("HienThiGia", "QuatDien"))
+            {
+                <label>Gia nho hon gia nhap vao</label>
+                <input type="text" name="Gia"/>
+                <input type="submit" value="submit" name="submit"/>
+            }
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HangSanXuat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayXuatXuong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LuuLuongGio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DonGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThanhTien)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HangSanXuat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayXuatXuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LuuLuongGio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DonGia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThanhTien)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaSp }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaSp }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaSp })
+            </td>
+        </tr>
+    }
+
+</table>

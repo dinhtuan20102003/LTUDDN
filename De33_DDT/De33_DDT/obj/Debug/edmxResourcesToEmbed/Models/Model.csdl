@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="Int32" Nullable="false" />
+    <Property Name="HoTen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DienThoai" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="HoaDonDatMons" Relationship="DatabaseModel.FK_HoaDonDatMon_KhachHang" FromRole="KhachHang" ToRole="HoaDonDatMon" />
+  </EntityType>
+  <EntityType Name="MonAn">
+    <Key>
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="MaMon" Type="Int32" Nullable="false" />
+    <Property Name="TenMon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiMon" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="DonGia" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="HoaDonDatMons" Relationship="DatabaseModel.FK_HoaDonDatMon_MonAn" FromRole="MonAn" ToRole="HoaDonDatMon" />
+  </EntityType>
+  <EntityContainer Name="DatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="KhachHangs" EntityType="Self.KhachHang" />
+    <EntitySet Name="MonAns" EntityType="Self.MonAn" />
+    <EntitySet Name="HoaDonDatMons" EntityType="DatabaseModel.HoaDonDatMon" />
+    <AssociationSet Name="FK_HoaDonDatMon_KhachHang" Association="DatabaseModel.FK_HoaDonDatMon_KhachHang">
+      <End Role="KhachHang" EntitySet="KhachHangs" />
+      <End Role="HoaDonDatMon" EntitySet="HoaDonDatMons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HoaDonDatMon_MonAn" Association="DatabaseModel.FK_HoaDonDatMon_MonAn">
+      <End Role="MonAn" EntitySet="MonAns" />
+      <End Role="HoaDonDatMon" EntitySet="HoaDonDatMons" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="HoaDonDatMon">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="Int32" Nullable="false" />
+    <Property Name="MaMon" Type="Int32" />
+    <Property Name="MaKH" Type="Int32" />
+    <Property Name="NgayDat" Type="DateTime" Precision="3" />
+    <Property Name="SoLuong" Type="Int32" />
+    <NavigationProperty Name="KhachHang" Relationship="DatabaseModel.FK_HoaDonDatMon_KhachHang" FromRole="HoaDonDatMon" ToRole="KhachHang" />
+    <NavigationProperty Name="MonAn" Relationship="DatabaseModel.FK_HoaDonDatMon_MonAn" FromRole="HoaDonDatMon" ToRole="MonAn" />
+  </EntityType>
+  <Association Name="FK_HoaDonDatMon_KhachHang">
+    <End Type="DatabaseModel.KhachHang" Role="KhachHang" Multiplicity="0..1" />
+    <End Type="DatabaseModel.HoaDonDatMon" Role="HoaDonDatMon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KhachHang">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="HoaDonDatMon">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HoaDonDatMon_MonAn">
+    <End Type="DatabaseModel.MonAn" Role="MonAn" Multiplicity="0..1" />
+    <End Type="DatabaseModel.HoaDonDatMon" Role="HoaDonDatMon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonAn">
+        <PropertyRef Name="MaMon" />
+      </Principal>
+      <Dependent Role="HoaDonDatMon">
+        <PropertyRef Name="MaMon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

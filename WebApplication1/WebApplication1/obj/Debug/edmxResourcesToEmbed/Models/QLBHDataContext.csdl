@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLBHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BanHang">
+    <Key>
+      <PropertyRef Name="manv" />
+      <PropertyRef Name="masp" />
+    </Key>
+    <Property Name="manv" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="masp" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="dinhmuc" Type="Int16" />
+    <Property Name="slban" Type="Int16" />
+    <NavigationProperty Name="NhanVien" Relationship="Self.FK_BanHang_NhanVien" FromRole="BanHang" ToRole="NhanVien" />
+    <NavigationProperty Name="SanPham" Relationship="Self.FK_BanHang_SanPham" FromRole="BanHang" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="manv" />
+    </Key>
+    <Property Name="manv" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tenquay" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="hoten" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BanHangs" Relationship="Self.FK_BanHang_NhanVien" FromRole="NhanVien" ToRole="BanHang" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="masp" />
+    </Key>
+    <Property Name="masp" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tensp" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BanHangs" Relationship="Self.FK_BanHang_SanPham" FromRole="SanPham" ToRole="BanHang" />
+  </EntityType>
+  <Association Name="FK_BanHang_NhanVien">
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="1" />
+    <End Role="BanHang" Type="Self.BanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="manv" />
+      </Principal>
+      <Dependent Role="BanHang">
+        <PropertyRef Name="manv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BanHang_SanPham">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="1" />
+    <End Role="BanHang" Type="Self.BanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="masp" />
+      </Principal>
+      <Dependent Role="BanHang">
+        <PropertyRef Name="masp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLBHDataContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BanHangs" EntityType="Self.BanHang" />
+    <EntitySet Name="NhanViens" EntityType="Self.NhanVien" />
+    <EntitySet Name="SanPhams" EntityType="Self.SanPham" />
+    <AssociationSet Name="FK_BanHang_NhanVien" Association="Self.FK_BanHang_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="BanHang" EntitySet="BanHangs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BanHang_SanPham" Association="Self.FK_BanHang_SanPham">
+      <End Role="SanPham" EntitySet="SanPhams" />
+      <End Role="BanHang" EntitySet="BanHangs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

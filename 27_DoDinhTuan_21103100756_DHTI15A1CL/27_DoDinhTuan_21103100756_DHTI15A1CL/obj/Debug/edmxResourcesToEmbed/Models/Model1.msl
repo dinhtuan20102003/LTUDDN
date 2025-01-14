@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLDIEMSVModelStoreContainer" CdmEntityContainer="QLDIEMSVEntities">
+    <EntitySetMapping Name="Diems">
+      <EntityTypeMapping TypeName="QLDIEMSVModel.Diem">
+        <MappingFragment StoreEntitySet="Diem">
+          <ScalarProperty Name="diem1" ColumnName="diem" />
+          <ScalarProperty Name="tenmh" ColumnName="tenmh" />
+          <ScalarProperty Name="masv" ColumnName="masv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SinhViens">
+      <EntityTypeMapping TypeName="QLDIEMSVModel.SinhVien">
+        <MappingFragment StoreEntitySet="SinhVien">
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="namsinh" ColumnName="namsinh" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="masv" ColumnName="masv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

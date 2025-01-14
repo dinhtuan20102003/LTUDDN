@@ -1,0 +1,77 @@
+﻿@model IEnumerable<De32_DDT.Models.HoaDonBan>
+
+@{
+    ViewBag.Title = "Hoadoncosoluongmax";
+}
+
+<h2>Hoadoncosoluongmax</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaHD)
+
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayBan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KhachHang.HoTen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sach.TenSach)
+        </th>
+        <th>
+            Thành tiền
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaHD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhachHang.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sach.TenSach)
+            </td>
+            <td>
+                @(item.Sach.DonGia *item.SoLuong)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaHD }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaHD }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaHD })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<_27_LTUDDN_DoDinhTuan_21103100756.Models.PhieuDatBao>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.tenbao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.makh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ngaydat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.soluong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dongia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.thanhtien)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.tenbao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.makh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ngaydat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.soluong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dongia)
+        </td>
+        <td>
+            @*@Html.Raw(item.dongia*item.soluong)*@
+            @Html.DisplayFor(modelItem => item.thanhtien)
+
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.tenbao, id1 = item.makh }) |
+            @Html.ActionLink("Details", "Details", new { id = item.tenbao, id1 = item.makh }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.tenbao, id1 = item.makh })
+        </td>
+    </tr>
+}
+
+</table>

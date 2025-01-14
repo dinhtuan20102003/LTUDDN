@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLDIEMSVModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QLDIEMSVEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Diems" EntityType="QLDIEMSVModel.Diem" />
+    <EntitySet Name="SinhViens" EntityType="QLDIEMSVModel.SinhVien" />
+    <AssociationSet Name="FK__Diem__masv__398D8EEE" Association="QLDIEMSVModel.FK__Diem__masv__398D8EEE">
+      <End Role="SinhVien" EntitySet="SinhViens" />
+      <End Role="Diem" EntitySet="Diems" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Diem">
+    <Key>
+      <PropertyRef Name="masv" />
+      <PropertyRef Name="tenmh" />
+    </Key>
+    <Property Name="masv" Type="Int32" Nullable="false" />
+    <Property Name="tenmh" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="diem1" Type="Double" />
+    <NavigationProperty Name="SinhVien" Relationship="QLDIEMSVModel.FK__Diem__masv__398D8EEE" FromRole="Diem" ToRole="SinhVien" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="masv" />
+    </Key>
+    <Property Name="masv" Type="Int32" Nullable="false" />
+    <Property Name="hoten" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="namsinh" Type="Int32" />
+    <Property Name="gioitinh" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Diems" Relationship="QLDIEMSVModel.FK__Diem__masv__398D8EEE" FromRole="SinhVien" ToRole="Diem" />
+  </EntityType>
+  <Association Name="FK__Diem__masv__398D8EEE">
+    <End Type="QLDIEMSVModel.SinhVien" Role="SinhVien" Multiplicity="1" />
+    <End Type="QLDIEMSVModel.Diem" Role="Diem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SinhVien">
+        <PropertyRef Name="masv" />
+      </Principal>
+      <Dependent Role="Diem">
+        <PropertyRef Name="masv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
