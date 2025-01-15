@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "Số ngày của tháng " + @ViewBag.thang + " năm " + @ViewBag.nam;
+}
+@{Html.BeginForm("TimNgay", "TimNgay", FormMethod.Post);}
+<h2 style="text-align: center; color: deeppink">@ViewBag.Title</h2>
+<p style="text-align: center; font-size: 22px; color: goldenrod">Tháng @ViewBag.thang năm @ViewBag.nam có @ViewBag.ngay  ngày </p>
+
+@{ Html.EndForm();}

@@ -1,0 +1,99 @@
+﻿@model DoDinhTuan_21103100756_DHTI15A1CL.Models.user1
+@{
+    ViewBag.Title = "TruyenDuLieuDoiTuongUser";
+}
+
+<h2 style="text-align: center; color: deepskyblue; font-family: 'Times New Roman'; font-weight:bold">Truyền dữ liệu đối tượng User</h2>
+
+
+@*/*DoDinhTuan_21103100756_DHTI15A1CL.Models.user1 u = ViewBag.user; */*@
+
+@*<p>Id: @Model.Id</p>
+    <p>Full name: @Model.Name</p>
+    <p>Address: @Model.Address</p>
+    <p>Email: @Model.Email</p>*@
+@{Html.BeginForm("NhanDL", "DemoView", FormMethod.Post);}
+<table style=" margin-top: 20px;">
+
+    <tr>
+        <td style="font-weight: bold">
+            @Html.LabelFor(model => model.Id)
+        </td>
+        <td>
+            @Html.EditorFor(model => model.Id)
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold">
+            @Html.LabelFor(model => model.Name)
+        </td>
+        <td>
+            @Html.EditorFor(model => model.Name)
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold">
+            @Html.LabelFor(model => model.Address)
+        </td>
+        <td>
+            @Html.DropDownListFor(model => model.Address, new SelectList(new[] { "Hà Nội", "Nam Định", "Hải Dương", "Hà Giang" }), "---Address---")
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold">
+            @Html.LabelFor(model => model.Email)
+        </td>
+        <td>
+            @Html.EditorFor(model => model.Email)
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold">
+            @Html.LabelFor(model => model.Gender)
+        </td>
+        <td>
+            @Html.EditorFor(model => model.Gender)
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold">
+            @Html.LabelFor(model => model.Gender)
+        </td>
+        <td>
+            @Html.RadioButtonFor(model => model.Gender, true)   Nam
+            @Html.RadioButtonFor(model => model.Gender, false)   Nữ
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold">
+            @Html.LabelFor(model => model.Password)
+        </td>
+        <td>
+            @Html.PasswordFor(model => model.Password)
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-weight: bold; text-align: center">
+           <button style="font-weight: bold; type="submit" class="btn btn-info">Submit</button>
+        </td>
+       
+    </tr>
+</table>
+
+@{Html.EndForm();}
+
+
+<style>
+    table {
+      font-family: 'Times New Roman';
+        margin: 0 auto;
+        width: 500px;
+        border-collapse: collapse;
+        font-size: 18px;
+    }
+
+    td {
+        border: 2px solid black;
+        padding: 10px;
+    }
+</style>

@@ -1,0 +1,46 @@
+﻿@model Baitap.Models.Login
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+<h2>Login</h2>
+@{ Html.BeginForm("Login", "Loggin", FormMethod.Post);}
+<table  class="table table-striped table-info table-hover table-bordered"  align="center"  >
+    <tr>
+        <td>
+            @Html.LabelFor(m => m.Username)
+
+        </td>
+        <td>@Html.TextBoxFor(m => m.Username, new { @class = "form-control" })</td>
+    </tr>
+    <tr>
+        <td>
+            @Html.LabelFor(m => m.Password)
+
+        </td>
+        <td>@Html.TextBoxFor(m => m.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m=>m.Password, "", new {@class = "text-danger"})</td>
+    </tr>
+    <tr >
+       
+        <td colspan="2" align="center"><input type="submit" value="Đăng nhập" class="btn btn-primary"/></td>
+    </tr>
+</table>
+@if(ViewBag.tb != null)
+{
+    <p class="text-success">
+        @ViewBag.tb;
+    </p>
+}
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+@{ Html.EndForm();}
+
+<style>
+    .table{
+  width: 40%;
+  border-radius: 20px;
+    }
+</style>
+
+

@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\ltuddn\\ltuddn\\views\\quatdien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|solutionrelative:ltuddn\\views\\quatdien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\ltuddn\\controllers\\quatdiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|solutionrelative:ltuddn\\controllers\\quatdiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\ltuddn\\views\\quatdien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|solutionrelative:ltuddn\\views\\quatdien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\ltuddn\\models\\quatdien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|solutionrelative:ltuddn\\models\\quatdien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\ltuddn\\views\\quatdien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|solutionrelative:ltuddn\\views\\quatdien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\ltuddn\\views\\quatdien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|solutionrelative:ltuddn\\views\\quatdien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\ltuddn\\views\\quatdien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{825B6C52-A916-45F3-8FCB-036789310F10}|LTUDDN\\LTUDDN.csproj|solutionrelative:ltuddn\\views\\quatdien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LTUDDN\\Views\\QuatDien\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Delete.cshtml",
+              "RelativeToolTip": "LTUDDN\\Views\\QuatDien\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T04:14:29.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LTUDDN\\Views\\QuatDien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Edit.cshtml",
+              "RelativeToolTip": "LTUDDN\\Views\\QuatDien\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T04:12:01.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Create.cshtml",
+              "RelativeDocumentMoniker": "LTUDDN\\Views\\QuatDien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Create.cshtml",
+              "RelativeToolTip": "LTUDDN\\Views\\QuatDien\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T04:05:16.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Details.cshtml",
+              "RelativeDocumentMoniker": "LTUDDN\\Views\\QuatDien\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Details.cshtml",
+              "RelativeToolTip": "LTUDDN\\Views\\QuatDien\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T04:00:54.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Index.cshtml",
+              "RelativeDocumentMoniker": "LTUDDN\\Views\\QuatDien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Views\\QuatDien\\Index.cshtml",
+              "RelativeToolTip": "LTUDDN\\Views\\QuatDien\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T03:52:41.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuatDienController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Controllers\\QuatDienController.cs",
+              "RelativeDocumentMoniker": "LTUDDN\\Controllers\\QuatDienController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Controllers\\QuatDienController.cs",
+              "RelativeToolTip": "LTUDDN\\Controllers\\QuatDienController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAiwKMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T03:48:56.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuatDien.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Models\\QuatDien.cs",
+              "RelativeDocumentMoniker": "LTUDDN\\Models\\QuatDien.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\LTUDDN\\LTUDDN\\Models\\QuatDien.cs",
+              "RelativeToolTip": "LTUDDN\\Models\\QuatDien.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAiwC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T03:39:40.96Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

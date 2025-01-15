@@ -1,0 +1,33 @@
+﻿@model DoDinhTuan_21103100756_DHTI15A1CL.Models.PTB2
+
+@{
+    ViewBag.Title = "Giải Phương Trình Bậc Hai";
+}
+
+<h2>Giải Phương Trình Bậc Hai</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(m => m.A)
+        @Html.TextBoxFor(m => m.A, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.A)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.B)
+        @Html.TextBoxFor(m => m.B, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.B)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.C)
+        @Html.TextBoxFor(m => m.C, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.C)
+    </div>
+    <button type="submit" class="btn btn-primary">Giải</button>
+}
+
+@if (ViewBag.Result != null)
+{
+    <h3> Kết quả: </h3>
+    <p>@Html.Raw(ViewBag.Result)</p>
+}

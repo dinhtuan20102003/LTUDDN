@@ -1,0 +1,51 @@
+﻿
+@model  DoDinhTuan_21103100756_DHTI15A1CL.Models.Login
+
+<h2>Đăng nhập</h2>
+@using (Html.BeginForm())
+{
+    <table align="center">
+        <tr>
+
+            <td> @Html.LabelFor(m => m.Username)</td>
+
+            <td>
+                @Html.TextBoxFor(m => m.Username)
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.Password)
+            </td>
+            <td>
+                @Html.PasswordFor(m => m.Password)
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" > <input type="submit" value="Đăng nhập" /></td>
+        </tr>
+       
+    </table>
+}
+
+@if (ViewBag.Message != null)
+{
+    <p style="color:green;">@ViewBag.Message</p>
+}
+<style>
+    table{
+        margin: 0, auto;
+    }
+    td{
+        padding: 5px;
+        padding-right: 10px;
+    }
+</style>
+
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

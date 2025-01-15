@@ -1,0 +1,11 @@
+﻿<h2>Sản Phẩm Bán Nhiều Nhất</h2>
+@if (ViewBag.Masp != null)
+{
+    <p>Mã sản phẩm: @ViewBag.Masp</p>
+    <p>Tên sản phẩm: @ViewBag.Tensp</p>
+    <p>Tổng số lượng nhiều nhất: @ViewBag.Tongsl</p>
+}
+else
+{
+    <p>Không có sản phẩm nào trong danh sách bán hàng.</p>
+}

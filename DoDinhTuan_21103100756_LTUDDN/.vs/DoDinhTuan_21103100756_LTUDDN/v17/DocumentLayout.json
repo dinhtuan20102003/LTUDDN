@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_ltuddn\\dodinhtuan_21103100756_ltuddn\\views\\giaiptb2\\giaiptb2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|solutionrelative:dodinhtuan_21103100756_ltuddn\\views\\giaiptb2\\giaiptb2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_ltuddn\\dodinhtuan_21103100756_ltuddn\\views\\gptbac2\\gptbac2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|solutionrelative:dodinhtuan_21103100756_ltuddn\\views\\gptbac2\\gptbac2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_ltuddn\\dodinhtuan_21103100756_ltuddn\\views\\sochinhphuong\\sochinhphuong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|solutionrelative:dodinhtuan_21103100756_ltuddn\\views\\sochinhphuong\\sochinhphuong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_ltuddn\\dodinhtuan_21103100756_ltuddn\\views\\sohoanhao\\sohoanhao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|solutionrelative:dodinhtuan_21103100756_ltuddn\\views\\sohoanhao\\sohoanhao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\dodinhtuan_21103100756_ltuddn\\controllers\\giaiptb2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|solutionrelative:dodinhtuan_21103100756_ltuddn\\controllers\\giaiptb2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\dodinhtuan_21103100756_ltuddn\\models\\ptb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B3BC5C-5686-4299-AB78-F5153E2A3C35}|DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN.csproj|solutionrelative:dodinhtuan_21103100756_ltuddn\\models\\ptb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gptbac2.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Views\\Gptbac2\\Gptbac2.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_LTUDDN\\Views\\Gptbac2\\Gptbac2.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Views\\Gptbac2\\Gptbac2.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_LTUDDN\\Views\\Gptbac2\\Gptbac2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T01:17:02.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sochinhphuong.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Views\\Sochinhphuong\\Sochinhphuong.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_LTUDDN\\Views\\Sochinhphuong\\Sochinhphuong.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Views\\Sochinhphuong\\Sochinhphuong.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_LTUDDN\\Views\\Sochinhphuong\\Sochinhphuong.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T01:16:38.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sohoanhao.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Views\\Sohoanhao\\Sohoanhao.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_LTUDDN\\Views\\Sohoanhao\\Sohoanhao.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Views\\Sohoanhao\\Sohoanhao.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_LTUDDN\\Views\\Sohoanhao\\Sohoanhao.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T01:16:22.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GiaiPTB2.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Views\\GiaiPTB2\\GiaiPTB2.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_LTUDDN\\Views\\GiaiPTB2\\GiaiPTB2.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Views\\GiaiPTB2\\GiaiPTB2.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_LTUDDN\\Views\\GiaiPTB2\\GiaiPTB2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T16:52:29.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PTB2.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Models\\PTB2.cs",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_LTUDDN\\Models\\PTB2.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Models\\PTB2.cs",
+              "RelativeToolTip": "DoDinhTuan_21103100756_LTUDDN\\Models\\PTB2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:45:36.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GiaiPTB2Controller.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Controllers\\GiaiPTB2Controller.cs",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_LTUDDN\\Controllers\\GiaiPTB2Controller.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_LTUDDN\\DoDinhTuan_21103100756_LTUDDN\\Controllers\\GiaiPTB2Controller.cs",
+              "RelativeToolTip": "DoDinhTuan_21103100756_LTUDDN\\Controllers\\GiaiPTB2Controller.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:45:20.146Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

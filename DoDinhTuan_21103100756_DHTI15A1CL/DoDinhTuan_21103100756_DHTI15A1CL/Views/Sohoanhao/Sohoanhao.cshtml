@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Tìm số hoàn hảo";
+}
+
+<h2>Tìm số hoàn hảo</h2>
+@using (Html.BeginForm("Sohoanhao", "Sohoanhao", FormMethod.Post))
+{
+    @Html.Label("Nhập n:")
+    @Html.TextBox("n")
+    <input type="submit" value="Tìm" />
+}
+
+@if (ViewBag.sohh.Count > 0)
+{
+    <h3>Kết quả:</h3>
+    <ul>
+        @foreach (var number in ViewBag.sohh)
+        {
+            <li>@number</li>
+        }
+    </ul>
+}
+else
+{
+    <h3>Không có số hoàn hảo nào được tìm thấy trong phạm vi n = @ViewBag.n</h3>
+}
+

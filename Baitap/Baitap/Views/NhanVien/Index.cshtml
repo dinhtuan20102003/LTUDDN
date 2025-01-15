@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Baitap.Models.NhanVien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HoTen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GioiTinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DienThoai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeSoLuong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Luong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenPhong)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeSoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Luong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenPhong)
+            </td>
+            <td>
+                <p>  @Html.ActionLink("Edit", "Edit", new { id = item.Manv }, new { @class = "btn btn-warning w-100" }) </p>
+                <p>
+                    @Html.ActionLink("Details", "Details", new { id = item.Manv }, new { @class = "btn btn-warning w-100" })
+                </p>
+                <p>     @Html.ActionLink("Delete", "Delete", new { id = item.Manv }, new { @class = "btn btn-warning w-100" })</p>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<h3>Tìm kiếm Nhân viên có giới tính là Nữ</h3>
+@using (Html.BeginForm("TimKiemGioiTinhNu", "NhanVien", FormMethod.Get))
+{
+    <input type="submit" value="Tìm kiếm nhân viên nữ" class="btn btn-primary" />
+}
+
+<hr />
+
+
+<h3>Tìm kiếm Nhân viên theo Tên Phòng</h3>
+@using (Html.BeginForm("TimKiemTheoPhong", "NhanVien", FormMethod.Post))
+{
+    <label>Ten phong</label>
+    <input type="text" name="tenPhong" />
+    <input type="submit" value="Tim"/>
+           }
+
+    <hr />
+
+
+    <h3>Tính tổng lương của nhân viên trong phòng</h3>
+    @using (Html.BeginForm("TinhTongLuong", "NhanVien", FormMethod.Post))
+    {
+        <div class="form-group">
+            <label for="tenPhong">Nhập tên phòng để tính tổng lương:</label>
+            <input type="text" name="tenPhong" class="form-control" placeholder="Nhập tên phòng" />
+        </div>
+        <input type="submit" value="Tính tổng lương" class="btn btn-info" />
+    }
+
+    @if (ViewBag.TongLuong != null)
+    {
+        <div class="alert alert-info">
+            Tổng lương của phòng: @ViewBag.TongLuong
+        </div>
+    }
+ 

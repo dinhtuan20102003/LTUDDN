@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "SoChan";
+    int[] a = ViewBag.a;
+}
+
+<h2>SoChan</h2>
+
+@if (a != null && a.Length > 0)
+{
+    <h1>Các phần tử trong mảng a: @string.Join(", ", a)</h1>
+    <h3>Các số chẵn trong mảng:</h3>
+    <ol>
+
+        @foreach (var number in a)
+        {
+            if (number % 2 == 0)
+            {
+                <li>@number</li>
+            }
+        }
+
+    </ol>
+}
+else
+{
+    <p>Không có số nào trong mảng.</p>
+}

@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "UCLN";
+    int a = ViewBag.a;
+    int b = ViewBag.b;
+}
+
+@{ Html.BeginForm("UCLN", "UCLN", FormMethod.Post);}
+@Html.Label("Nhập số thứ nhất: ")
+@Html.TextBox("a")</br>
+@Html.Label("Nhập số thứ hai: ")
+@Html.TextBox("b")</br>
+<input type="submit" value="Tìm" /></br>
+<p>UCLN của @ViewBag.a và @ViewBag.b là @ViewBag.ucln  </p>
+@{ Html.EndForm();}
+
+
+

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Gptbac2";
+}
+
+<h2 style="text-align: center; color: deepskyblue; ">Giải phương trình bậc hai</h2>
+@{ Html.BeginForm("Gptbac2", "Gptbac2", FormMethod.Post);}
+<table style="margin-top: 20px">
+    <tr>
+        <td>@Html.Label("Nhập a: ")</td>
+        <td>@Html.TextBox("a")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Nhập b: ")</td>
+        <td>@Html.TextBox("b")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Nhập c: ")</td>
+        <td>@Html.TextBox("c")</td>
+    </tr>
+</table>
+<div style="text-align: center; margin-top: 20px">
+    <input style="width: 100px; height: 30px; background-color: deepskyblue" type="submit" value="Tính"/>
+</div>
+<div style="text-align: center; margin-top: 20px; color: deepskyblue; font-size: 20px">
+    @Html.Raw(ViewBag.kq)
+</div>
+@{ Html.EndForm();}
+<style>
+    table{
+        margin: 0 auto;
+    }
+    td{
+        font-size: 20px;
+        padding: 5px;
+        padding-right: 50px;
+    }
+</style>
+

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<BTVN_Tuan6_DDT.Models.Banhang>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p>
+    @Html.ActionLink("Danh sách chi tiết bán hàng vượt định mức", "Sapxep")
+</p
+<p>
+    @Html.ActionLink("Tổng số lượng bán của từng nhân viên", "Tongsoluongbannhanvien")
+</p>
+<p>
+    @Html.ActionLink("Mặt hàng bán với tổng số lượng nhiều nhất", "SanPhamBanNhieuNhat")
+</p>
+@using (Html.BeginForm())
+{
+    @Html.Label("Nhập tên sản phẩm: ")
+    @Html.TextBox("search", "", new { placeholder = "Nhap ten san pham" })
+    <input type="submit" value="Tìm kiếm" />
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nhanvien.Manv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sanpham.Masp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dinhmuc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Slban)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nhanvien.Manv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sanpham.Masp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dinhmuc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Slban)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id, manv = item.Manv, masp = item.Masp }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id, manv = item.Manv, masp = item.Masp }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id, manv = item.Manv, masp = item.Masp })
+            </td>
+        </tr>
+    }
+
+</table>

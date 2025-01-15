@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_dhti15a1cl\\dodinhtuan_21103100756_dhti15a1cl\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|solutionrelative:dodinhtuan_21103100756_dhti15a1cl\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_dhti15a1cl\\dodinhtuan_21103100756_dhti15a1cl\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|solutionrelative:dodinhtuan_21103100756_dhti15a1cl\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_dhti15a1cl\\dodinhtuan_21103100756_dhti15a1cl\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|solutionrelative:dodinhtuan_21103100756_dhti15a1cl\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_dhti15a1cl\\dodinhtuan_21103100756_dhti15a1cl\\views\\demoview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|solutionrelative:dodinhtuan_21103100756_dhti15a1cl\\views\\demoview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_dhti15a1cl\\dodinhtuan_21103100756_dhti15a1cl\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|solutionrelative:dodinhtuan_21103100756_dhti15a1cl\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_dhti15a1cl\\dodinhtuan_21103100756_dhti15a1cl\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|solutionrelative:dodinhtuan_21103100756_dhti15a1cl\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_dhti15a1cl\\dodinhtuan_21103100756_dhti15a1cl\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|solutionrelative:dodinhtuan_21103100756_dhti15a1cl\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\dodinhtuan_21103100756_dhti15a1cl\\dodinhtuan_21103100756_dhti15a1cl\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D1CEF3-1637-47C4-BB19-2AD74CC39336}|DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL.csproj|solutionrelative:dodinhtuan_21103100756_dhti15a1cl\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T12:45:48.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Details.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T12:45:07.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T12:45:03.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\DemoView\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\DemoView\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\DemoView\\Index.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\DemoView\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T12:44:58.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "DoDinhTuan_21103100756_DHTI15A1CL\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T12:02:44.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_DHTI15A1CL\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "DoDinhTuan_21103100756_DHTI15A1CL\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:00:46.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_DHTI15A1CL\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Models\\Login.cs",
+              "RelativeToolTip": "DoDinhTuan_21103100756_DHTI15A1CL\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:00:36.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DoDinhTuan_21103100756_DHTI15A1CL\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\DoDinhTuan_21103100756_DHTI15A1CL\\DoDinhTuan_21103100756_DHTI15A1CL\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DoDinhTuan_21103100756_DHTI15A1CL\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:28:18.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

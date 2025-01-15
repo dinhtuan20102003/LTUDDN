@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "UCLN";
+}
+
+<h2 style="text-align: center; color: red">Tìm ước chung lớn nhất</h2>
+@{Html.BeginForm("TimUCLN", "Home", FormMethod.Post);}
+<table>
+    <tr>
+        <td>@Html.Label("Nhập số thứ nhất: ")</td>
+        <td>@Html.TextBox("a")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Nhập số thứ hai: ")</td>
+        <td>@Html.TextBox("b")</td>
+    </tr>
+</table>
+<div style=" margin-top: 20px; text-align: center;">
+    <input style=" background-color: red;" type="submit" value="Submit" />
+</div>
+
+@{Html.EndForm();}
+<style>
+    table {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    td {
+        font-size: 20px;
+        padding-right: 50px;
+        padding: 5px;
+    }
+
+    input {
+        width: 100px;
+        height: 30px;
+    }
+</style>
+
+
+

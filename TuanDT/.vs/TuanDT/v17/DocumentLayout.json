@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\tuandt\\tuandt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|solutionrelative:tuandt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\tuandt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|solutionrelative:tuandt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\tuandt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|solutionrelative:tuandt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\tuandt\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|solutionrelative:tuandt\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\tuandt\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|solutionrelative:tuandt\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\tuandt\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB1BB98A-4361-4795-9972-9F7A3647AC3C}|TuanDT\\TuanDT.csproj|solutionrelative:tuandt\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TuanDT\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TuanDT\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:33:51.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TuanDT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TuanDT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T04:29:18.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TuanDT\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TuanDT\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T04:29:08.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TuanDT\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TuanDT\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T04:28:18.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "TuanDT\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "TuanDT\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T04:26:04.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "TuanDT\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\TuanDT\\TuanDT\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "TuanDT\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T04:26:04.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

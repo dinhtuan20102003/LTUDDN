@@ -1,0 +1,43 @@
+﻿@model  IEnumerable<DoDinhTuan_21103100756_DHTI15A1CL.Models.user1>
+@{
+    ViewBag.Title = "TruyenTapDoiTuongUsers";
+}
+
+<h2 style="text-align:center; color: deepskyblue">Truyền tập đối tượng Users</h2>
+@*@{ var users = Model;}*@
+@foreach (var u in Model)
+{
+    <table>
+        <tr>
+            <td>Id:</td>
+            <td>   @u.Id</td>
+        </tr>
+        <tr>
+            <td>Full name:</td>
+            <td>  @u.Name</td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td> @u.Address</td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td>  @u.Email</td>
+        </tr>
+
+    </table>
+}
+<style>
+    table {
+        margin: 20px auto;
+        width: 500px;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid blue;
+        padding: 10px;
+    }
+  
+</style>

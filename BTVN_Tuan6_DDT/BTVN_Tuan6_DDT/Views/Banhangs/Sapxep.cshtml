@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BTVN_Tuan6_DDT.Models.Banhang>
+
+@{
+    ViewBag.Title = "Sapxep";
+}
+
+<h2>Sapxep</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nhanvien.Tenquay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sanpham.Tensp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dinhmuc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Slban)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nhanvien.Tenquay)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sanpham.Tensp)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dinhmuc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Slban)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\btvn_tuan6_ddt\\btvn_tuan6_ddt\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\btvn_tuan6_ddt\\views\\banhangs\\sanphambannhieunhat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\views\\banhangs\\sanphambannhieunhat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\btvn_tuan6_ddt\\btvn_tuan6_ddt\\views\\banhangs\\tongsoluongbannhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\views\\banhangs\\tongsoluongbannhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\btvn_tuan6_ddt\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\btvn_tuan6_ddt\\app_start\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\app_start\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\btvn_tuan6_ddt\\models\\qlbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\models\\qlbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\btvn_tuan6_ddt\\btvn_tuan6_ddt\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|c:\\users\\user\\documents\\l\u1EADp tr\u00ECnh uddn trong .net\\btvn_tuan6_ddt\\btvn_tuan6_ddt\\models\\banhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\models\\banhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\btvn_tuan6_ddt\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\btvn_tuan6_ddt\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB6020B-7914-42BB-AC10-750F1D70250F}|BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT.csproj|solutionrelative:btvn_tuan6_ddt\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:845303917:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tongsoluongbannhanvien.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Views\\Banhangs\\Tongsoluongbannhanvien.cshtml",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Views\\Banhangs\\Tongsoluongbannhanvien.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Views\\Banhangs\\Tongsoluongbannhanvien.cshtml",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Views\\Banhangs\\Tongsoluongbannhanvien.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T13:34:38.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\Model1.cs",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Models\\Model1.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\Model1.cs",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Models\\Model1.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:12:45.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhanviensController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Controllers\\NhanviensController.cs",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Controllers\\NhanviensController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Controllers\\NhanviensController.cs",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Controllers\\NhanviensController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:07:33.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SanPhamBanNhieuNhat.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Views\\Banhangs\\SanPhamBanNhieuNhat.cshtml",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Views\\Banhangs\\SanPhamBanNhieuNhat.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Views\\Banhangs\\SanPhamBanNhieuNhat.cshtml",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Views\\Banhangs\\SanPhamBanNhieuNhat.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T01:33:17.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyDB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\App_Start\\MyDB.cs",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\App_Start\\MyDB.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\App_Start\\MyDB.cs",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\App_Start\\MyDB.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T01:31:58.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Global.asax.cs",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Global.asax.cs",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T01:31:45.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QLBH.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\QLBH.cs",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Models\\QLBH.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\QLBH.cs",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Models\\QLBH.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T01:31:27.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\Sanpham.cs",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Models\\Sanpham.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\Sanpham.cs",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Models\\Sanpham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T01:31:00.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Banhang.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\Banhang.cs",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Models\\Banhang.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\Banhang.cs",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Models\\Banhang.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvxEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T01:30:54.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Nhanvien.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\Nhanvien.cs",
+              "RelativeDocumentMoniker": "BTVN_Tuan6_DDT\\Models\\Nhanvien.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\L\u1EADp tr\u00ECnh UDDN trong .NET\\BTVN_Tuan6_DDT\\BTVN_Tuan6_DDT\\Models\\Nhanvien.cs",
+              "RelativeToolTip": "BTVN_Tuan6_DDT\\Models\\Nhanvien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T01:30:44.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

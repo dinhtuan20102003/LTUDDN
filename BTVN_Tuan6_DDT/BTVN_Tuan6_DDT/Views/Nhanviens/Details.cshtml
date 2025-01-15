@@ -1,0 +1,34 @@
+﻿@model BTVN_Tuan6_DDT.Models.Nhanvien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Nhanvien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tenquay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tenquay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hoten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hoten)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Manv }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

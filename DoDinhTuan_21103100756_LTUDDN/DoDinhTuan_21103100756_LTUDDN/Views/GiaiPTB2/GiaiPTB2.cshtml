@@ -1,0 +1,27 @@
+﻿@model DoDinhTuan_21103100756_LTUDDN.Models.PTB2
+@{
+    ViewBag.Title = "Giải phương trình bậc hai";
+}
+
+<h2>Giải phương trình bậc hai</h2>
+@{ Html.BeginForm("GiaiPTB2", "GiaiPTB2", FormMethod.Post);}
+<div>
+    @Html.LabelFor(m => m.A , "Nhập a:")
+    @Html.TextBoxFor(m => m.A, new { @class = "form-control" })
+</div>
+<div>
+    @Html.LabelFor(m => m.B, "Nhập b:")
+    @Html.TextBoxFor(m => m.B, new { @class = "form-control" })
+</div>
+
+
+<div>
+    @Html.LabelFor(m => m.C, "Nhập c:")
+    @Html.TextBoxFor(m => m.C, new { @class = "form-control" })
+</div>
+<button type="submit" class="btn btn-info">Giải phương trình</button>
+@if(ViewBag.kq != null)
+            {
+                <h3>Kết quả:</h3>
+                <p>@Html.Raw(ViewBag.kq)</p>
+            }

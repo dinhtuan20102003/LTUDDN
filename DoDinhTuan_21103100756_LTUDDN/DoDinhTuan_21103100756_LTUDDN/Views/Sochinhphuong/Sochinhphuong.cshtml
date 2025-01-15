@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Tìm số chình phương";
+}
+
+<h2>Tìm số chình phương</h2>
+@{ Html.BeginForm("Sochinhphuong", "Sochinhphuong", FormMethod.Post);}
+@Html.Label("Nhập các số(cách nhau bởi dấu phẩy): ")
+@Html.TextBox("number")
+<input type="submit" value="Tìm số chính phương" />
+@{Html.EndForm();}
+@if (ViewBag.socp != null & ViewBag.socp.Count > 0)
+{
+    <h3>Các số chính phương</h3>
+    <ul>
+        @foreach (var number1 in ViewBag.socp)
+        {
+            <li>@number1</li>
+        }
+    </ul>
+}
+else if(ViewBag.socp != null)
+            {
+                <h3>Không có số chính phương nào được tìm thấy</h3>
+            }

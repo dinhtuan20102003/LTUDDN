@@ -1,0 +1,66 @@
+﻿@model LTUDDN.Models.QuatDien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>QuatDien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HangSanXuat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HangSanXuat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayXuatXuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayXuatXuong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LuuLuongGio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LuuLuongGio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DonGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DonGia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThanhTien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThanhTien)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaSp }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

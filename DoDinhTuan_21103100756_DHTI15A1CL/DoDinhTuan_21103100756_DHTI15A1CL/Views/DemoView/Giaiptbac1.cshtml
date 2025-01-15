@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Giải phương trình bậc nhất";
+}
+@{
+    decimal a = ViewBag.a;
+    decimal b = ViewBag.b;
+    string kq = "";
+
+    if (a == 0)
+    {
+        if (b == 0)
+        {
+            kq = "Phương trình có vô số nghiệm.";
+        }
+        else
+        {
+            kq = "Phương trình vô nghiệm.";
+        }
+    }
+    else
+    {
+        decimal x = -b / a;
+        kq = $"Phương trình có nghiệm x = {x}";
+    }
+}
+
+<h2>Giải phương trình bậc nhất</h2>
+
+<p>Phương trình: @a x + @b = 0</p>
+<p>Kết quả: @kq</p>

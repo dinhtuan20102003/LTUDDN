@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Tổng số nguyên tố";
+    int[] a = ViewBag.a;
+}
+@{ Html.BeginForm("Tongsnt", "Tongsnt", FormMethod.Post);}
+@{
+    <h2 style="margin-bottom: 20px; color:deepskyblue; text-align:center; font-family:'Times New Roman'; font-weight: bold">TÍNH TỔNG CÁC PHẦN TỬ TRONG MẢNG LÀ SỐ NGUYÊN TỐ </h2>
+    if (ViewBag.tb != null)
+    {
+        <h2>@ViewBag.tb</h2>
+    }
+    else
+    {
+        <h3>- Danh sách các phần tử trong mảng: @string.Join(", ", a)</h3>
+        <h3>- Danh sách các phần tử trong mảng là số nguyên tố: </h3>
+        <ol>
+            @foreach (var ds in ViewBag.sont)
+            {
+                <li style="font-size: 20px">@ds</li>
+            }
+        </ol>
+        <h3>=> Tổng các số nguyên tố trong mảng là: @ViewBag.tong </h3>
+    }
+}
+@{ Html.EndForm();}
+<style>
+    h3{
+        font-family: 'Times New Roman';
+       
+    }
+</style>
+
